@@ -1,0 +1,11 @@
+{
+    "context": {
+        "label": "Select box",
+        "options": [
+            {
+                "name": "Option 1",
+                "name": "Option 2"
+            }
+        ]
+    }
+}

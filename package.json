@@ -1,0 +1,8 @@
+{
+  "name": "nested-example",
+  "version": "0.1.0",
+  "dependencies": {
+    "@frctl/fractal": "^1.0.8",
+    "handlebars-layouts": "^3.1.3",
+  }
+}

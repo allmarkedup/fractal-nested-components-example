@@ -1,0 +1,22 @@
+<form action="#" method="post">
+
+    {{!--
+        Embed the fieldset component, using context data that is the result
+        of a merge of context data set in the form config ('fieldsetContext')
+        and the default context data for the fieldset component.
+         The sub-expression (contextData '@fieldset' fieldsetContext) achieves this.
+    --}}
+    {{#embed '@fieldset' (contextData '@fieldset' fieldsetContext)}}
+
+        {{#content 'fields'}}
+            {{!--
+                This overrides the default content of the 'fields' block in the fieldset.
+                In this example it's rendering a select component using context set in
+                the form config ('selectContext') merged with the default select component context.
+            --}}
+            {{render '@select' selectContext merge=true}}
+        {{/content}}
+
+    {{/embed}}
+
+</form>

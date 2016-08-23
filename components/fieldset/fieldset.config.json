@@ -1,0 +1,8 @@
+{
+    "context": {
+        "legendContext": {
+            "legendText": "Legend within a fieldset"
+        },
+        "fieldsetText": "This is a some fieldset text"
+    }
+}

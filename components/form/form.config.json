@@ -1,0 +1,12 @@
+{
+    "context": {
+        "fieldsetContext": {
+            "legendContext": {
+                "legendText": "Legend within a fieldset within a form"
+            }
+        },
+        "selectContext": {
+            "label": "Choose an option"
+        }
+    }
+}

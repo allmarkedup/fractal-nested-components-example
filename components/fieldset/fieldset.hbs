@@ -1,0 +1,15 @@
+<fieldset>
+
+    {{!-- Render the legend component with context set in the fieldset config --}}
+    {{render '@legend' legendContext merge=true}}
+
+    {{#block 'fields'}}
+
+    {{!-- This a block whose content can be overriden when the component is embedded --}}
+    <input type="text" name="name" value="This is an example field">
+
+    {{/block}}
+
+     <p>{{ fieldsetText }}</p>
+
+</fieldset>
